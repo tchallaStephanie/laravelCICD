@@ -11,7 +11,7 @@ jobs:
     steps:
     # 1-Récupérer le code source
     - name: Récupérer le code source
-      uses: actions/chekout@v5
+      uses: actions/checkout@v5
      
     # 2-Exécuter les test
     - name: Run test
