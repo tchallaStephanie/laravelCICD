@@ -3,7 +3,7 @@ name: Laravel CI
 #Définir les triggers
 on:
   push:
-    branches:[main]
+    branches: [main]
 
 jobs:
   build:
